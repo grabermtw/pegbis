@@ -1,0 +1,49 @@
+Epoch: 1/25
+Epoch: 2/25
+Epoch: 3/25
+Epoch: 4/25
+Epoch: 5/25
+Epoch: 6/25
+Epoch: 7/25
+Epoch: 8/25
+Epoch: 9/25
+Epoch: 10/25
+Epoch: 11/25
+Epoch: 12/25
+Epoch: 13/25
+Epoch: 14/25
+Epoch: 15/25
+Epoch: 16/25
+Epoch: 17/25
+Epoch: 18/25
+Epoch: 19/25
+Epoch: 20/25
+Epoch: 21/25
+Epoch: 22/25
+Epoch: 23/25
+Epoch: 24/25
+Epoch: 25/25
+Total training time: 2355.0484671592712 seconds
+weather results:
+  Training:
+    Accuracy: 0.7005876894525209
+    Precision: 0.7005876894525209
+    Recall: 1.0
+    F1-score: 0.8239359767188069
+  Testing:
+    Accuracy: 0.6913265306122449
+    Precision: 0.6913265306122449
+    Recall: 1.0
+    F1-score: 0.8174962292609351
+terrain results:
+  Training:
+    Accuracy: 0.7225487163625116
+    Precision: 0.6416666666666667
+    Recall: 0.04212253829321663
+    F1-score: 0.07905544147843943
+  Testing:
+    Accuracy: 0.7117346938775511
+    Precision: 0.5227272727272727
+    Recall: 0.03688853247794707
+    F1-score: 0.06891385767790262
+Total runtime: 2513.216695547104

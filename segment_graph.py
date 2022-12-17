@@ -52,12 +52,13 @@ def square(value):
     return value * value
 
 
-# randomly creates RGB
-def random_rgb():
+# "randomly" creates RGB based on the given seed
+# don't want it to be fully random when we're using these images to train.
+def random_rgb(i):
     rgb = np.zeros(3, dtype=int)
-    rgb[0] = random.randint(0, 255)
-    rgb[1] = random.randint(0, 255)
-    rgb[2] = random.randint(0, 255)
+    rgb[0] = random.Random(i).randint(0, 255)
+    rgb[1] = random.Random(i+1).randint(0, 255)
+    rgb[2] = random.Random(i+2).randint(0, 255)
     return rgb
 
 

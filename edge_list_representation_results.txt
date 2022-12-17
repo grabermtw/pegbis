@@ -1,0 +1,27 @@
+weather results:
+  Training:
+    Accuracy: 0.7005876894525209
+    Precision: 0.7005876894525209
+    Recall: 1.0
+    F1-score: 0.8239359767188069
+  Testing:
+    Accuracy: 0.6913265306122449
+    Precision: 0.6913265306122449
+    Recall: 1.0
+    F1-score: 0.8174962292609351
+terrain results:
+/home/grabe/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_nd being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+  Training:
+    Accuracy: 0.7172904423136406
+    Precision: 0.0
+    Recall: 0.0
+    F1-score: 0.0
+/home/grabe/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+  Testing:
+    Accuracy: 0.7108070500927643
+    Precision: 0.0
+    Recall: 0.0
+    F1-score: 0.0
+Total runtime: 7591.658129453659
